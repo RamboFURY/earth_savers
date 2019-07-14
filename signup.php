@@ -25,6 +25,11 @@
                                 <label for="mob">Mobile</label>
                                 <input type="tel" class="form-control" id="mob" required="required" name="mob"  placeholder="Enter Your Ten Digit Mobile Number.">
                             </div>
+                            <div class="form-group">
+
+                                    <label for="dob">Birth Date</label>
+                                    <input type="date" class="form-control" id="dob" required="required" name="dob"  placeholder="Enter Your Date of Birth.">
+                                </div>
 
                         <div class="form-group">
                             <label for="password">Password</label>
@@ -35,7 +40,7 @@
                                 <label for="email">Email</label>
                                 <input type="email" class="form-control" id="email" required="required" name="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$" placeholder="Enter Your Email To Get Registered With.">
                             </div>
-                        <button type="submit" class="btn btn-primary btn-block" value="registration_submit">Submit</button><br>
+                        <button type="submit" class="btn btn-primary btn-block" value="registration_submit">Submit</button>
 
                       </form>
                     </div>

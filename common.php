@@ -23,7 +23,7 @@
                           <span class="icon-bar"></span>
                           <span class="icon-bar"></span>
                       </button>
-                    <a href="main.php" class="navbar-brand">Earth Savers</a>
+                    <a href="main.php" class=" logout navbar-brand">Earth Savers</a>
                     </div>
               </div>
   </div>
