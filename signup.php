@@ -4,15 +4,15 @@
         <div class="container">
             <div class="row">
                 <div class="col-xs-4 col-xs-offset-4">
-<br><br><br>
+<br><br>
                     <div class="panel panel-primary">
                         <div class="panel-heading"><h3>REGISTER</h3></div>
                         <div class="panel-body">
-                          <form method="POST" action="#">
+                          <form method="POST" action="adduser.php" name="addentry">
                           <div class="form-group">
 
-                                  <label for="uname">User Name</label>
-                                  <input type="text" class="form-control" id="uname" required="required" name="uname" placeholder="Create Your Unique Username.">
+                                  <label for="u_name">User Name</label>
+                                  <input type="text" class="form-control" id="u_name" required="required" name="u_name" placeholder="Create Your Unique Username.">
                               </div>
 
                     <div class="form-group">
@@ -22,14 +22,16 @@
                         </div>
                         <div class="form-group">
 
-                                <label for="mob">Mobile</label>
-                                <input type="tel" class="form-control" id="mob" required="required" name="mob"  placeholder="Enter Your Ten Digit Mobile Number.">
+                                <label for="mobile">Mobile</label>
+                                <input type="tel" class="form-control" id="mobile" required="required" name="mobile"  placeholder="Enter Your Ten Digit Mobile Number.">
                             </div>
-                            <div class="form-group">
+                        <div class="form-group">
 
-                                    <label for="dob">Birth Date</label>
-                                    <input type="date" class="form-control" id="dob" required="required" name="dob"  placeholder="Enter Your Date of Birth.">
-                                </div>
+                                <label for="dob">Birth Date</label>
+                                <input type="date" class="form-control" id="dob" required="required" name="dob"  placeholder="Enter Your Date of Birth.">
+                            </div>
+
+
 
                         <div class="form-group">
                             <label for="password">Password</label>
@@ -40,7 +42,8 @@
                                 <label for="email">Email</label>
                                 <input type="email" class="form-control" id="email" required="required" name="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$" placeholder="Enter Your Email To Get Registered With.">
                             </div>
-                        <button type="submit" class="btn btn-primary btn-block" value="registration_submit">Submit</button>
+
+                        <button type="submit" class="btn btn-primary btn-block" value="SUBMIT" name="submitbtn">Submit</button>
 
                       </form>
                     </div>

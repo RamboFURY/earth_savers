@@ -28,7 +28,7 @@
                     </div>
             <div>
                 <ul class="nav navbar-nav navbar-right">
-                <li><a href="logout.html"><span class="glyphicon glyphicon-log-out"></span>Log Out</a></li>
+                <li><a href="logout.php"><span class="glyphicon glyphicon-log-out"></span>Log Out</a></li>
             </div>
                   </div>
   </div>

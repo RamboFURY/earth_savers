@@ -8,11 +8,11 @@
                     <div class="panel panel-primary">
                         <div class="panel-heading"><h3>LOGIN</h3></div>
                         <div class="panel-body">
-                          <form method="POST" action="#">
+                          <form method="POST" action="validate.php" name="verifyentry">
                           <div class="form-group">
 
-                                  <label for="uname">User Name</label>
-                                  <input type="text" class="form-control" id="uname" required="required" name="uname" placeholder="">
+                                  <label for="u_name">User Name</label>
+                                  <input type="text" class="form-control" id="u_name" required="required" name="u_name" placeholder="">
                               </div>
 
 
@@ -22,7 +22,7 @@
                             <input type="password" class="form-control" id="password" name="password" pattern=".{6,}" placeholder="" required="required">
                         </div>
 
-                        <button type="submit" class="btn btn-primary btn-block" value="registration_submit">Submit</button><br>
+                        <button type="submit" class="btn btn-primary btn-block" value="SUBMIT" name="submitbtn">Submit</button><br>
 
                       </form>
                     </div>
