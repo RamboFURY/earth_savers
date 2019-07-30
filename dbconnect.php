@@ -30,4 +30,12 @@ class dbconnector
     $query->execute();
     return $query->get_result();
   }
+
+public function addfunc($waste,$quantity,$age,$address)
+{
+  global $dblink;
+  $query = $dblink->prepare("INSERT INTO waste_form(waste,quantity,age,address) values(?,?,?,?)");
+  $query->bind_param("siis",$waste,$quantity,$age,$address);
+  $query->execute();
+}
 }
